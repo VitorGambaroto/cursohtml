@@ -6,27 +6,51 @@
     padding: 0px;
 }
 
+menu , ul , li , a , h1 , i#ham{
+    border: 1px solid red;
+}
+     
+
 header {
     background-color: gray;
 
 }
 
 header > h1 {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
-li.item {
+ul{
+    list-style-type: none;
+    width: 120px;
+    margin: auto;
+}
+
+li {
     padding: 5px;
-    display: block;
+    display:block;
+    width: 15vw;
+    margin:auto;
 }
 
 i#ham {
-    padding: 3px;
     display: block;
     cursor: pointer;
     color:black;
+    width: 24px;
+    border-radius: 3px;
+    margin: 6px;
+    transition: 0.3s; 
+   
+}
+i#ham:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    width: 24px;
+    border-radius: 3px;
+    margin: 5px;
+    transition: 0.3s;    
 }
 
 menu > ul > li > a {
@@ -35,17 +59,16 @@ menu > ul > li > a {
     color: rgba(255, 255, 255, 0.745);
     padding: 5px;
     border-radius: 5px;
+    display: block;
 }
 menu > ul > li > a:hover {
     background-image: linear-gradient(to left ,rgb(63, 63, 227),rgba(255, 255, 255, 0.11));
     color: black;
 }
 menu {
-    padding: 10px;
-}
-
-menu > ul {
-    list-style-type: none;
+    background-color:rgb(76, 76, 76);
+    width: 30vw;
+    display: block;
 }
 
 main {
