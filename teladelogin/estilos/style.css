@@ -8,9 +8,7 @@ Small screens, laptops – 769px — 1024px.
 Desktops, large screens – 1025px — 1200px.
 Extra large screens, TV – 1201px  */
 
-body, main , h1 , div, p{
-    border: 1px solid red;
-}
+
 
 *{
     margin: 0px;
@@ -46,7 +44,7 @@ h1 {
 
 p {
     text-align: center;
-    background-color: black;
+    background-color: rgb(238, 149, 149);
     color: white;
 }
 
@@ -65,4 +63,8 @@ input {
 
 p#botao {
     width: 100%;
+}
+
+#esqueceu {
+    padding: 5px;
 }
